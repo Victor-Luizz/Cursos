@@ -1,0 +1,14 @@
+"""""
+itens = ["Macarrão","Arroz","Feijão","Batata frita","Heineken"]
+print(itens)
+itens.remove("Arroz")
+print(itens)
+"""""
+
+itens = ["Macarrão","Arroz","Feijão","Batata frita","Heineken"]
+lista_atualizada = []
+for i in itens:
+   if i != "Arroz":
+      lista_atualizada.append(i)
+
+print("Lista final : ",lista_atualizada)      
